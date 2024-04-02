@@ -14,8 +14,8 @@ This website is a text-to-image generator that allows users to input text and ge
 - Melonie AI API: Used to generate images based on user input text.
 
 ## Sample Image
-- **Image-Desktop**[sample-image.png](Image-DeskTop)
-- **Image-Mobile**[sample-img-phn.jpg](Image-Mobile)
+- **Image-Desktop**[Image-DeskTop](sample-image.png)
+- **Image-Mobile**[Image-Mobile](sample-img-phn.jpg)
 ## Usage
 1. Open the website in your preferred web browser.
 2. Enter the desired text into the provided text field.
