@@ -5,7 +5,17 @@ let img_taker = document.querySelector(".image-shown")
 
 
 async function query() {
-    img_taker.innerHTML = `<img src="loader.gif">`
+    img_taker.innerHTML = `<div class="terminal-loader">
+    <div class="terminal-header">
+      <div class="terminal-title">Status</div>
+      <div class="terminal-controls">
+        <div class="control close"></div>
+        <div class="control minimize"></div>
+        <div class="control maximize"></div>
+      </div>
+    </div>
+    <div class="text">Loading...</div>
+  </div>`
     const response = await fetch(
         "https://api-inference.huggingface.co/models/Melonie/text_to_image_finetuned",
         {
